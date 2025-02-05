@@ -1,8 +1,10 @@
 const App = () => {
   return (
-    <div>
-      <h1 className='text-blue-900 text-4xl text-center'>Hello World</h1>
-    </div>
+    <main>
+      <h1 className='text-5xl text-violet-300 font-bold'>
+        Welcome to Awwwards
+      </h1>
+    </main>
   );
 };
 
