@@ -32,7 +32,7 @@ export const Hero = () => {
   const getVideoSrc = (index: number) => `videos/hero-${index}.mp4`;
 
   useEffect(() => {
-    if (loadedVideos === TOTAL_VIDEOS - 1) setIsLoading(false);
+    if (loadedVideos === 2) setIsLoading(false);
   }, [loadedVideos]);
 
   useGSAP(
