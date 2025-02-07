@@ -15,7 +15,7 @@ export const Button = ({
   return (
     <button
       className={twMerge(
-        'group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black',
+        'group relative z-10 w-fit cursor-pointer overflow-hidden rounded-full bg-violet-50 px-7 py-3 text-black hover:bg-violet-300 hover:text-white transition-colors duration-500 ease-in-out',
         className
       )}
     >
