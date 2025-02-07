@@ -28,7 +28,7 @@ export const Footer = () => {
           &copy; Zentry 2025. All rights reserved.
         </p>
 
-        <div className='flex justify-center gap-4 md:justify-start'>
+        <div className='flex justify-center gap-4 md:justify-start md:-ml-30'>
           {LINKS.map((link) => (
             <a
               key={link.href}
