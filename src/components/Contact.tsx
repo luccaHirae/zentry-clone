@@ -33,7 +33,7 @@ export const Contact = () => {
         <div className='flex flex-col items-center text-center'>
           <p className='font-general text-[10px] uppercase'>Join Zentry</p>
 
-          <p className='mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]'>
+          <p className='mt-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem] z-20'>
             Let's b<b>u</b>ild the <br /> new er<b>a</b> of <br /> gaming t
             <b>o</b>gether
           </p>
