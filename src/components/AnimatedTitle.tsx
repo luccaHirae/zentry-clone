@@ -5,9 +5,10 @@ import { twMerge } from 'tailwind-merge';
 export interface AnimatedTitleProps {
   title: string;
   className?: string;
+  id?: string;
 }
 
-export const AnimatedTitle = ({ title, className }: AnimatedTitleProps) => {
+export const AnimatedTitle = ({ title, className, id }: AnimatedTitleProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -33,7 +34,11 @@ export const AnimatedTitle = ({ title, className }: AnimatedTitleProps) => {
   }, []);
 
   return (
-    <div ref={containerRef} className={twMerge('animated-title', className)}>
+    <div
+      ref={containerRef}
+      id={id}
+      className={twMerge('animated-title', className)}
+    >
       {title.split('<br />').map((line, index) => (
         <div
           key={index}
